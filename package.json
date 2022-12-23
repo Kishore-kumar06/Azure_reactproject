@@ -1,0 +1,33 @@
+{
+    "name": "react-nodejs-app",
+    "version": "1.0.0",
+    "description": "example project react with nodejs",
+    "main": "server.js",
+    "scripts": {
+      "start": "server.js",
+      "dev": "nodemon ./server.js localhost 3080"
+    },
+    "repository": {
+      "type": "github",
+      "url": "https://github.com/kishore553/Azure_reactproject"
+    },
+    "author": "kishore553",
+    "bugs": {
+      "url": "https://react-nodejs-app.azurewebsites.net"
+    },
+    "homepage": "https://github.com/kishore553/Azure_reactproject",
+    "dependencies": {
+      "express": "^4.17.1",
+      "http-proxy-middleware": "^1.0.4"
+    },
+    "devDependencies": {
+      "del": "^5.1.0",
+      "fancy-log": "^1.3.3",
+      "gulp": "^4.0.2",
+      "gulp-zip": "^5.0.1",
+      "nodemon": "^2.0.4",
+      "webpack": "^4.43.0",
+      "webpack-cli": "^3.3.11",
+      "webpack-stream": "^5.2.1"
+    }
+  }
